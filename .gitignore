@@ -28,10 +28,12 @@ Thumbs.db
 *.log
 npm-debug.log*
 .vite-tailwind.err
-# Environment
+# Environment & Secrets
 .env
 .env.local
 .env.*.local
+DEPLOYMENT_INFO.txt
+backups/
 
 # TypeScript
 *.tsbuildinfo
