@@ -18,13 +18,13 @@ Tài liệu này hướng dẫn chi tiết từng bước:
 4. Nhập mật khẩu xác nhận và tải tệp về máy tính.
 
 ### Bước 2: Tạo tài khoản quản trị trên NodeWarden
-1. Truy cập Web Vault mới: [https://nodewarden.trung270310.workers.dev](https://nodewarden.trung270310.workers.dev)
+1. Truy cập Web Vault: [https://bw.selfh.vip](https://bw.selfh.vip) (hoặc link dự phòng [https://nodewarden.trung270310.workers.dev](https://nodewarden.trung270310.workers.dev))
 2. Nhấp vào **Create Account (Tạo tài khoản)**.
 3. Đăng ký tài khoản với email và Master Password của bạn.
    > **Lưu ý quan trọng**: Tài khoản đầu tiên đăng ký sẽ trở thành tài khoản quản trị. Sau khi tài khoản đầu tiên được tạo, NodeWarden sẽ tự động yêu cầu Mã mời (Invite Code) cho các lần đăng ký sau, giúp ngăn chặn người lạ đăng ký (tương đương `SIGNUPS_ALLOWED = "false"` trên Fly.io).
 
 ### Bước 3: Nhập dữ liệu (Import) vào NodeWarden
-1. Đăng nhập vào tài khoản vừa tạo trên [https://nodewarden.trung270310.workers.dev](https://nodewarden.trung270310.workers.dev).
+1. Đăng nhập vào tài khoản vừa tạo trên [https://bw.selfh.vip](https://bw.selfh.vip).
 2. Vào mục **Tools (Công cụ)** > **Import Data (Nhập dữ liệu)**.
 3. Chọn nguồn nhập: **Bitwarden (JSON)** (hoặc Encrypted JSON tương ứng).
 4. Chọn tệp đã tải về ở Bước 1 và nhấn **Import Vault**.
@@ -41,14 +41,14 @@ Sau khi nhập dữ liệu thành công, bạn cập nhật lại URL máy chủ
 2. Tại màn hình đăng nhập, nhấp vào biểu tượng **Bánh răng (Cài đặt)** ở góc trên bên trái.
 3. Trong ô **Server URL (URL máy chủ)**, nhập:
    ```text
-   https://nodewarden.trung270310.workers.dev
+   https://bw.selfh.vip
    ```
 4. Nhấn **Save (Lưu)** và đăng nhập với tài khoản mới.
 
 ### Trên App điện thoại (iOS / Android):
 1. Đăng xuất khỏi app Bitwarden.
 2. Tại màn hình đăng nhập, chọn biểu tượng bánh răng cài đặt.
-3. Nhập Server URL: `https://nodewarden.trung270310.workers.dev`.
+3. Nhập Server URL: `https://bw.selfh.vip`.
 4. Lưu và đăng nhập lại.
 
 ---

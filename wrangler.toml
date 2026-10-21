@@ -1,6 +1,11 @@
 name = "nodewarden"
 main = "src/index.ts"
 compatibility_date = "2024-01-01"
+workers_dev = true
+
+[[routes]]
+pattern = "bw.selfh.vip"
+custom_domain = true
 
 [build]
 command = "npm run build"
